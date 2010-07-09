@@ -1,0 +1,29 @@
+# Distribution file for the Nintendo Wii Demo project.
+# http://www.openengine.dk/wiki/Projects/wiiDemo
+
+# main repository
+darcs / http://openengine.dk/code/branches/wii-main
+darcs-dev / fh.daimi.au.dk:/users/cgd/code/branches/wii-main
+
+# project repository
+# (uncomment the following two lines after uploading your project)
+darcs /projects/wiiDemo http://openengine.dk/code/projects/wiiDemo
+darcs-dev /projects/wiiDemo fh.daimi.au.dk:/users/cgd/code/projects/wiiDemo
+
+# required extensions
+darcs /extensions/TGAResource            http://openengine.dk/code/extensions/TGAResource
+darcs /extensions/OBJResource            http://openengine.dk/code/extensions/OBJResource
+darcs /extensions/AccelerationStructures http://openengine.dk/code/extensions/AccelerationStructures
+
+darcs-dev /extensions/TGAResource            fh.daimi.au.dk:/users/cgd/code/extensions/TGAResource
+darcs-dev /extensions/OBJResource            fh.daimi.au.dk:/users/cgd/code/extensions/OBJResource
+darcs-dev /extensions/AccelerationStructures fh.daimi.au.dk:/users/cgd/code/extensions/AccelerationStructures
+
+# windows libraries
+
+# darwin libraries
+
+# linux libraries
+
+# project data
+
