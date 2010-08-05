@@ -1,6 +1,6 @@
 # Project name. Should be the same as the project directory name and
 # will become the name of the binary target.
-SET( PROJECT_NAME "wiiDemo")
+SET( PROJECT_NAME "wiiDemo.elf")
 
 # Project source code list
 SET( PROJECT_SOURCES
@@ -30,22 +30,14 @@ SET (PROJECT_LIBRARIES
   Extensions_TGAResource
   Extensions_OBJResource
   Extensions_AccelerationStructures
+  Extensions_Wii
 )
-
-
-IF(WII)
-  INCLUDE(FindOgc.cmake)
-  IF (OGC_FOUND)       
-    #SET_TARGET_PROPERTIES (${PROJECT_NAME} PROPERTIES LINK_FLAGS "-logc")
-    SET (PROJECT_LIBRARIES ${PROJECT_LIBRARIES} ${OGC_LIBRARIES}) 
-  ELSE (OGC_FOUND)
-    MESSAGE ("WARNING: Could not find libogc - depending targets will be disabled.")
-  ENDIF (OGC_FOUND)
-  MAKE_DOL(${PROJECT_NAME})
-ENDIF(WII)
 
 # Project dependencies
 TARGET_LINK_LIBRARIES(${PROJECT_NAME}
   ${PROJECT_LIBRARIES}
   )
 
+IF(WII)
+  MAKE_DOL(${PROJECT_NAME})
+ENDIF(WII)

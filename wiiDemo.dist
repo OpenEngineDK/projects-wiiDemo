@@ -14,10 +14,12 @@ darcs-dev /projects/wiiDemo fh.daimi.au.dk:/users/cgd/code/projects/wiiDemo
 darcs /extensions/TGAResource            http://openengine.dk/code/extensions/TGAResource
 darcs /extensions/OBJResource            http://openengine.dk/code/extensions/OBJResource
 darcs /extensions/AccelerationStructures http://openengine.dk/code/extensions/AccelerationStructures
+darcs /extensions/Wii                    http://openengine.dk/code/extensions/Wii
 
 darcs-dev /extensions/TGAResource            fh.daimi.au.dk:/users/cgd/code/extensions/TGAResource
 darcs-dev /extensions/OBJResource            fh.daimi.au.dk:/users/cgd/code/extensions/OBJResource
 darcs-dev /extensions/AccelerationStructures fh.daimi.au.dk:/users/cgd/code/extensions/AccelerationStructures
+darcs-dev /extensions/Wii                    fh.daimi.au.dk:/users/cgd/code/extensions/Wii
 
 # windows libraries
 
