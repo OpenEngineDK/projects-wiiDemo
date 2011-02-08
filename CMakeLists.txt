@@ -5,6 +5,7 @@ SET( PROJECT_NAME "wiiDemo.elf")
 # Project source code list
 SET( PROJECT_SOURCES
   # Add all the cpp source files here
+  # net_print.c
   main.cpp
 )
 
@@ -31,6 +32,9 @@ SET (PROJECT_LIBRARIES
   Extensions_OBJResource
   Extensions_AccelerationStructures
   Extensions_Wii
+  Extensions_MeshUtils
+  Extensions_AssimpResource
+  # Extensions_BulletPhysics
 )
 
 # Project dependencies
