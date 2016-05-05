@@ -1,28 +1,28 @@
 # Distribution file for the Nintendo Wii Demo project.
 # http://www.openengine.dk/wiki/Projects/wiiDemo
 
-dist /extensions/Assimp/Assimp.dist http://openengine.dk/code/extensions/Assimp/Assimp.dist
+dist /extensions/Assimp/Assimp.dist https://raw.githubusercontent.com/OpenEngineDK/extensions-Assimp/master/Assimp.dist
 
 # main repository
-darcs / http://openengine.dk/code/branches/wii-main
-darcs / http://openengine.dk/code/openengine
-darcs-dev / fh.daimi.au.dk:/users/cgd/code/branches/wii-main
+git / https://github.com/OpenEngineDK/branches-wii-main.git
+git / https://github.com/OpenEngineDK/openengine.git
+git-dev / git@github.com:OpenEngineDK/branches-wii-main.git
 
 # project repository
 # (uncomment the following two lines after uploading your project)
-darcs /projects/wiiDemo http://openengine.dk/code/projects/wiiDemo
-darcs-dev /projects/wiiDemo fh.daimi.au.dk:/users/cgd/code/projects/wiiDemo
+git /projects/wiiDemo https://github.com/OpenEngineDK/projects-wiiDemo.git
+git-dev /projects/wiiDemo git@github.com:OpenEngineDK/projects-wiiDemo.git
 
 # required extensions
-darcs /extensions/TGAResource            http://openengine.dk/code/extensions/TGAResource
-darcs /extensions/AccelerationStructures http://openengine.dk/code/extensions/AccelerationStructures
-darcs /extensions/Wii                    http://openengine.dk/code/extensions/Wii
-darcs /extensions/MeshUtils              http://openengine.dk/code/extensions/MeshUtils
+git /extensions/TGAResource            https://github.com/OpenEngineDK/extensions-TGAResource.git
+git /extensions/AccelerationStructures https://github.com/OpenEngineDK/extensions-AccelerationStructures.git
+git /extensions/Wii                    https://github.com/OpenEngineDK/extensions-Wii.git
+git /extensions/MeshUtils              https://github.com/OpenEngineDK/extensions-MeshUtils.git
 
-darcs-dev /extensions/TGAResource            fh.daimi.au.dk:/users/cgd/code/extensions/TGAResource
-darcs-dev /extensions/AccelerationStructures fh.daimi.au.dk:/users/cgd/code/extensions/AccelerationStructures
-darcs-dev /extensions/Wii                    fh.daimi.au.dk:/users/cgd/code/extensions/Wii
-darcs-dev /extensions/MeshUtils              fh.daimi.au.dk:/users/cgd/code/extensions/MeshUtils
+git-dev /extensions/TGAResource            git@github.com:OpenEngineDK/extensions-TGAResource.git
+git-dev /extensions/AccelerationStructures git@github.com:OpenEngineDK/extensions-AccelerationStructures.git
+git-dev /extensions/Wii                    git@github.com:OpenEngineDK/extensions-Wii.git
+git-dev /extensions/MeshUtils              git@github.com:OpenEngineDK/extensions-MeshUtils.git
 
 # windows libraries
 
